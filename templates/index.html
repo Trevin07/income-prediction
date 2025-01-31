@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Prediction</title>
+</head>
+<body>
+    <h2>Enter Details to Predict Salary per Month</h2>
+    <form method="POST">
+        Age: <input type="number" name="age" required><br><br>
+        
+        Education:
+        <select name="education" required>
+            <option value="">Select Education</option>
+            {% for edu in education_list %}
+                <option value="{{ loop.index0 }}">{{ edu }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        Workclass:
+        <select name="workclass" required>
+            <option value="">Select Workclass</option>
+            {% for work in workclass_list %}
+                <option value="{{ loop.index0 }}">{{ work }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        Country:
+        <select name="country" required>
+            <option value="">Select Country</option>
+            {% for country in country_list %}
+                <option value="{{ country }}">{{ country }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        Sector:
+        <select name="sector" required>
+            <option value="">Select Sector</option>
+            {% for sec in sector_list %}
+                <option value="{{ sec }}">{{ sec }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+        <h3>Predicted Salary: ${{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
