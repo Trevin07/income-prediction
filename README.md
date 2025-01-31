@@ -5,7 +5,8 @@ This project predicts the monthly salary of individuals based on various attribu
 ---
 ## Screenshot of the Web Application
 
-![Screenshot](screenshots/screenshot.png)
+![Screenshot](screenshot.png)
+
 
 ## Project Overview
 
