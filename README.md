@@ -3,12 +3,11 @@
 This project predicts the monthly salary of individuals based on various attributes such as age, education level, work class, country, and sector. The model outputs a predicted salary value based on these features.
 
 ---
+Screenshot of the Web Application
 
-## Screenshot of the Web Application
+![Screenshot](./screensot.jpg)
 
-![Screenshot](https://raw.githubusercontent.com/Trevin07/income-prediction/main/income/screenshot.png)
-
-
+---
 
 ## Project Overview
 
