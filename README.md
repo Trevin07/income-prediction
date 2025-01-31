@@ -1,6 +1,6 @@
 # Income Prediction Project
 
-This project predicts the monthly salary of individuals based on various attributes such as age, education level, work class, country, and sector. The model outputs a predicted salary value based on these features.
+This project predicts the monthly salary of individuals based on various attributes such as age, education level, work class, country, and sector. The model outputs a predicted salary value based on these features by a model which was trained by using over 26,000 thousand records/samples.
 
 ---
 Screenshot of the Web Application
