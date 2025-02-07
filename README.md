@@ -64,7 +64,7 @@ pip install -r requirements.txt
 3. Train the model:
 Run the script to train the machine learning models:
 
-python income.ipynb
+python3 income.ipynb
 
 4. Start the web application:
 Run the Flask web application:
