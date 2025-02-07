@@ -68,7 +68,7 @@ python income.ipynb
 
 4. Start the web application:
 Run the Flask web application:
-python app.py
+python3 app.py
 
 5. Access the web app:
 Navigate to http://127.0.0.1:5000 in your browser to use the model.
